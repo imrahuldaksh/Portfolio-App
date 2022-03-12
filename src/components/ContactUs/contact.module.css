@@ -1,0 +1,59 @@
+.form {
+    max-width: 750px;
+    margin: 50px auto;
+}
+
+.form form {
+    display: block;
+    margin: 50px auto 0;
+    max-width: 320px;
+}
+
+.form label, .form input {
+    display: block;
+    text-align: left;
+}
+
+.form label {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.form input {
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.form button[type='submit'] {
+    width: 100%;
+    padding: 10px;
+    background: #042b5f;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    margin-top: 20px;
+}
+textarea{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px;
+    resize: none;
+}
+select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    outline: none;
+}

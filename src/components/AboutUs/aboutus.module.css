@@ -1,0 +1,22 @@
+.aboutus{
+    margin: 50px auto 0;
+    max-width: 750px;
+    line-height: 1.8;
+    text-align: left;
+}
+.imgWrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.imgWrap ul, aside{
+    width: 50%;
+}
+.aboutImg{
+    background: #ccc url('../../images/about-img.jpg') no-repeat;
+    height: 100%;
+    max-width: 70%;
+    background-size: contain;
+    border-radius: 15px;
+    margin: 10px auto 0;
+    border: 5px solid #ccc;
+}
