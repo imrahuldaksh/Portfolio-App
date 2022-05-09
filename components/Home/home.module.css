@@ -1,0 +1,39 @@
+:root {
+    --white: #fff;
+}
+.banner {
+    background: url('../banner_jobs.jpg') no-repeat center center fixed;
+    background-size: cover;
+    padding : 50px 0;
+}
+.bannerHeading {
+    color: var(--white);
+    flex: 0 0 100%;
+    padding-bottom: 50px;
+}
+.heroPara {
+    margin: 0 auto;
+    width: 60%;
+    padding: 50px;
+    text-align: left;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-color: #f6f5f0;
+    padding: 50px 0;
+    max-width: 1170px;
+    margin: 0 auto;
+    justify-content: space-around;
+    border-radius: 11px;
+}
+
+.selfie {
+    width: 40%;
+}
+
+.selfie img {
+    border-radius: 10px;
+}

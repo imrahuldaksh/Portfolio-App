@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@600&family=Nunito:wght@400;600;800&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #002d6b;  
+  border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f6f5f0; 
+  border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f6f5f0; 
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  background-color: #e0e9f5;
+  font-size: 1.8rem;
+  color: #002d6b;
+  font-family: 'Nunito', sans-serif;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+main {
+  text-align: center;
+}
+
+h1,
+h2,
+h3{
+  color: #042b5f;
+  font-family: Domine;
+}
+h1{
+  font-size: 46px;
+  max-width: 940px; 
+  margin: 0 auto;
+}
