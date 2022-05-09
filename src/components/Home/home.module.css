@@ -4,7 +4,7 @@
 .banner {
     background: url('../banner_jobs.jpg') no-repeat center center fixed;
     background-size: cover;
-    padding-top: 50px;
+    padding : 50px 0;
 }
 .bannerHeading {
     color: var(--white);
@@ -13,7 +13,6 @@
 }
 .heroPara {
     margin: 0 auto;
-    color: var(--white);
     width: 60%;
     padding: 50px;
     text-align: left;
@@ -23,11 +22,12 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-    background-color: rosybrown;
-    padding: 100px 0;
+    background-color: #f6f5f0;
+    padding: 50px 0;
     max-width: 1170px;
     margin: 0 auto;
     justify-content: space-around;
+    border-radius: 11px;
 }
 
 .selfie {

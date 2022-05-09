@@ -9,6 +9,7 @@ import AuthForm from './components/Authentication/AuthForm';
 // import About from './components/AboutUs';
 import Footer from './components/Footer/footer';
 import Portfolio from './components/Portfolio/Portfolio';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 // to load component dynamically OR lazy loading of component in React
 const About = React.lazy(() => import('./components/AboutUs/AboutUs'));
@@ -53,6 +54,7 @@ function App() {
           </Switch>
         </Suspense>
       </main>
+      <ScrollToTop />
       <Footer/>
     </div>
   );
